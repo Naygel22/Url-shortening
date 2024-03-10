@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(53, 51, 51);
+  display: flex;
+  justify-content: center;
+}
+#root {
+  background-color: white;
+  width: 1440px;
+  padding-top: 40px;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+.logoAndButtonsContainer {
+  display: flex;
+  align-items: center;
+}
+.logoImg {
+  margin-right: 10px;
+}
