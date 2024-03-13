@@ -7,7 +7,7 @@ export function MainIntro() {
           Build your brand's recognition and get detailed insights on how your
           links are performing.
         </div>
-        <button>Get Started</button>
+        <button className="getStartedButton">Get Started</button>
       </div>
       <div>
         <img
