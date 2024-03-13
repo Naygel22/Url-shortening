@@ -20,7 +20,7 @@ body {
 #root {
   background-color: white;
   width: 1440px;
-  padding-top: 40px;
+  padding-top: 50px;
   overflow: hidden;
   padding-left: 140px;
   padding-right: 140px;
@@ -43,8 +43,11 @@ body {
   cursor: pointer;
   margin-left: 30px;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 15px;
   color: var(--gray);
+}
+.navBarButton:hover {
+  color: var(--very-dark-blue);
 }
 .getStartedButton {
   width: 190px;
@@ -56,6 +59,9 @@ body {
   font-weight: 700;
   font-size: 19px;
   cursor: pointer;
+}
+.getStartedButton:hover {
+  background-color: #9be3e2;
 }
 .mainIntroContainer {
   display: flex;
@@ -74,6 +80,7 @@ body {
   font-size: 70px;
   font-weight: 800;
   line-height: 90px;
+  color: var(--very-dark-blue);
 }
 .introDescription {
   font-size: 20px;
@@ -118,6 +125,9 @@ body {
   cursor: pointer;
   margin-left: 15px;
 }
+.shortenButton:hover {
+  background-color: #9be3e2;
+}
 .advancedStatistics {
   display: flex;
   justify-content: center;
@@ -135,6 +145,7 @@ body {
   font-weight: 800;
   text-align: center;
   margin-bottom: 20px;
+  color: var(--very-dark-blue);
 }
 .advancedStatisticsText {
   font-size: 14px;
@@ -181,6 +192,7 @@ body {
   font-weight: 800;
   margin-top: 30px;
   margin-bottom: 20px;
+  color: var(--very-dark-blue);
 }
 .cardInfo {
   font-size: 16px;
@@ -213,19 +225,52 @@ body {
   margin-right: -140px;
   padding-left: 140px;
   padding-right: 140px;
+  padding-top: 60px;
   color: white;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr;
+  font-size: 14px;
+  color: var(--gray);
+  gap: 10px;
 }
+.footerLogo{
+  font-size: 33px;
+  font-weight: 700;
+  color: white;
+}
+.footerLinks div{
+  margin-bottom: 15px;
+}
+.footerLinks div:hover{
+  color: var(--cyan);
+  cursor: pointer;
+}
+.footerLinksTitle{
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
+}
+.footerIcons img{
+margin-left: 20px;
+}
+.footerIcons img:hover{
+  color: var(--cyan);
+  cursor: pointer;
+  }
 .column2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   grid-column: 2;
-  grid-row: 1;
+
 }
-.columnd3 {
+.column3 {
   grid-column: 3;
-  grid-template-columns: repeat(2, 1fr);
-  grid-row: 1;
+}
+.column4 {
+  grid-column: 4;
+}
+.column5 {
+  grid-column: 5;
+}
+.column6 {
+  grid-column: 6;
 }
