@@ -1,6 +1,8 @@
+import style from "./MainIntro.module.css"
+
 export function MainIntro() {
   return (
-    <div className="mainIntroContainer">
+    <div className={style.mainIntroContainer}>
       <div className="textSection">
         <div className="heading">More than just shorter links</div>
         <div className="introDescription">

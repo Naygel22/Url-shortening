@@ -15,14 +15,12 @@ export function NavBar() {
           alt="shortly-logo"
           className="logoImg"
         />
-        <Button text="Features" />
-        <Button text="Pricing" />
-        <Button text="Resources" />
+        {["Features","Pricing","Resources"].map(el=><Button key={el} text={el} />)}
       </div>
 
       <div className="logoAndButtonsContainer">
-        <Button text="Login" />
-        <Button text="Sign Up" />
+        {["Login","Sign Up"].map(el=><Button key={el} text={el} />)}
+        
       </div>
     </nav>
   );
